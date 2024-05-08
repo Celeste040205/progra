@@ -36,11 +36,23 @@ public class BucleFor {
         System.out.println("FOR:");
         for (int i = 1; i < 10; i++) {
             for (int s = 1; s < i; s++)
-                System.out.print((i%2==0)?"-":"+");
+            System.out.print((i%2==0)?"-":"+");
             System.out.print("     ");
-                    
+            
         }
         System.out.println("");
-
+        
+    }
+    
+    //metodo: escalera.
+    public void escalera(){
+        System.out.println("Escalera:");
+        int nivel = 10;
+        String sacalon= "|_";
+        for (int i = 1; i < nivel; i++){
+            for (int e = 1; e < i; e++)
+                System.out.print("  ");
+            System.out.println(sacalon);
+        }
     }
 }

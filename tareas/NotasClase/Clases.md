@@ -399,9 +399,10 @@ public class Hi {
 ## **Clase 5**
 
 ### *Bucles*
+
 *For*
 
-da un inicio y un final.
+Da un inicio y un final.
 
 * creacion de documentos 
 
@@ -417,7 +418,7 @@ Revison de errores que pueden suceder en la plataforma para no compile.
 
 ## **Clase 6**
 
-*Bucles*
+*Bucles for parte 2*
 
 * Orden del directorio.
 
@@ -458,3 +459,27 @@ Entender el patron del ejercicios:
 * va aumentando conforme aumentan los numeros.
 *se puede compactar el codigo.
 ![alt text](image-14.png)
+
+*Ejercicio: La escalera*
+
+* Niveles (variables): for (n)
+	* un palito, se aumenta, cierra la escalera.
+
+		* nivel 1: |_
+		* nivel 2:   |_
+		* nivel 3:     |_
+
+	* se aumentan n niveles.
+
+* aumentar la escalera a lo ancho (otra variable): for (h)
+	* aumentar un espacio entre cada uno.
+
+![alt text](image-15.png)
+
+*While*
+
+pasar de un for a while.
+
+![alt text](image-16.png)
+
+![alt text](image-17.png)
