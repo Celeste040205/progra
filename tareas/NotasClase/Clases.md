@@ -398,7 +398,10 @@ public class Hi {
 
 ## **Clase 5**
 
-*Bucles*
+### *Bucles*
+*For*
+
+da un inicio y un final.
 
 * creacion de documentos 
 
@@ -408,13 +411,50 @@ public class Hi {
 
 * exencion power mod 
 
-(Captura)
+![alt text](image-8.png)
 
+Revison de errores que pueden suceder en la plataforma para no compile.
 
+## **Clase 6**
 
+*Bucles*
 
+* Orden del directorio.
 
+* Proyectos pequeños en distintas carpetas.
 
+* Crear un numero proyecto.
 
+* primero se debe saber cual sera el resultado del codigo para poder trabajar.
 
+al momento de crear un nuevo proyecto se abrira una nueva perte de java donde esta guardado y se tiene un "src" una fuente y un *App* que ayudara a la compilar.
 
+![alt text](image-11.png)
+
+A partir de esta carpeta se puede abrir un nuevo archivo que puede ser de varios tipos.
+
+![alt text](image-12.png)
+
+En este ocacion se selecciono *Class* y se le coloco el nombre *BucleFor* (las mayusculas son importantes) se comenzo a trabajar en este  
+
+![alt text](image-9.png)
+
+***Codigo de For compilado***
+
+![alt text](image-10.png)
+
+*Error (Depuracion)*
+
+![alt text](image-13.png)
+
+*Siguiente ejemplo*
+
+entender matematicamente lo siguiente 
++-- +++ ----+++++....
+
+Entender el patron del ejercicios:
+* los impares son +
+* los pares son -
+* va aumentando conforme aumentan los numeros.
+*se puede compactar el codigo.
+![alt text](image-14.png)
