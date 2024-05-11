@@ -1,7 +1,7 @@
 public class ForNombreM {
     public void forM(){
         System.out.println(" ");
-        System.out.println("M");
+        System.out.println("for: M");
         System.out.println(" ");
         String a = "*";
         String asterisco = "***";
@@ -34,7 +34,6 @@ public class ForNombreM {
         
         for (int i = 1; i <= 3; i++) {
             for (int j = 1; j <= 3; j++) {
-                
                 System.out.print(a);
             }
             System.out.print("  ");

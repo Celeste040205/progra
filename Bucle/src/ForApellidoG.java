@@ -1,7 +1,7 @@
 public class ForApellidoG {
     public void forG(){
         System.out.println(" ");
-        System.out.println("G");
+        System.out.println("for: G");
         System.out.println(" ");
         String a = "*";
         String asterisco = "****";
@@ -23,15 +23,12 @@ public class ForApellidoG {
             System.out.print(asterisco);
         }
         System.out.println(" ");
-        
         //mitad
         for (int j = 1; j <= 1; j++) {
             System.out.print(asterisco);
         }
         System.out.println(" ");
-        
         //complicado
-
         for (int i = 4; i <= 6; i++) {
             if (i==4)
                 for (int s = 1; s <= i; s++)
@@ -45,10 +42,9 @@ public class ForApellidoG {
             else                    
                 for (int sp = 1; sp <= i; sp++)
                         System.out.print(" ");
-        System.out.print("");           
+            System.out.print("");           
         }    
         System.out.println(" ");
-        
         //parte baja
         for (int m = 1; m <= 2; m++) {
             for (int i = 1; i <= 1; i++) {
