@@ -1,4 +1,4 @@
-public class forInicialApellidoG {
+public class ForApellidoG {
     public void forG(){
         System.out.println(" ");
         System.out.println("G");

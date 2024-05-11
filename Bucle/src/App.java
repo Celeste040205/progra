@@ -1,11 +1,11 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        forInicialNombreM fM;
-        forInicialApellidoG fG;
-        forInicialNombreApellidoMG fMg;
-        fM = new forInicialNombreM();
-        fG = new forInicialApellidoG();
-        fMg = new forInicialNombreApellidoMG();
+        ForNombreM fM;
+        ForApellidoG fG;
+        ForNombreApellidoMG fMg;
+        fM = new ForNombreM();
+        fG = new ForApellidoG();
+        fMg = new ForNombreApellidoMG();
 
         fM.forM();
         fG.forG();

@@ -1,4 +1,4 @@
-public class forInicialNombreM {
+public class ForNombreM {
     public void forM(){
         System.out.println(" ");
         System.out.println("M");
