@@ -1,109 +1,104 @@
-public class WhileApellidoG {
-    public void WhileG(){
+public class DoWhileApellidoG {
+    public void DoWhileG(){
         System.out.println(" ");
-        System.out.println("while: G");
+        System.out.println("DoWhile: G");
         System.out.println(" ");
         String a = "*";
         String asterisco = "****";
 
         int i = 1;
-        while (i <= 2) {
+        do {
             int j = 1;
-            while (j <= 14) {
+            do {
                 System.out.print(a);
                 j++;
-            }
+            } while (j <= 14);
             System.out.println("");
             i++;
-        }
+        } while (i <= 2);
 
         int q = 1;
-        while (q <= 1) {
+        do {
             int j = 1;
-            while (j <= 1) {
+            do {
                 int k = 1;
-                while (k <= 1) {
+                do {
                     System.out.print(asterisco);
                     k++;
-                }
+                } while (k <= 1);
                 System.out.print("      ");
                 j++;
-            }
+            } while (j <= 1);
             System.out.print(asterisco);
             q++;
-        }
+        } while (q <= 1);
         System.out.println(" ");
         //MITAD
         int j = 1;
-        while (j <= 1) {
+        do {
             System.out.print(asterisco);
             j++;
-        }
+        } while (j <= 1);
         System.out.println(" ");
         //COMPLICADO
         int x = 4;
-        while (x <= 6) {
-            if (x==4){
+        do {
+            if (x==4||x==6){
                 int s = 1;
-                while (s <= x) {
+                do {
                     System.out.print(a);
                     s++;
-                }
-            } if (x==6) {
-                int c = 1;
-                while (c <= x) {
-                    System.out.print(a);
-                    c++;
-                }
+                } while (s <= x);
+                System.out.print("");
             } if (x==5) {
                 int c = 1;
-                while (c <= x) {
+                do {
                     System.out.print("");
                     c++;
-                }
+                } while (c <= x);
             } else {
                 int v = 1;
-                while (v <= x) {
+                do {
                     System.out.print(" ");
                     v++;
-                }
+                } while (v <= x);
             }
             System.out.print("");
             x++;
-        }
+        } while (x <= 6);
         System.out.println("");
         //parte baja
         int m = 1;
-        while (m <= 2) {
+        do {
             int e = 1;
-            while (e <= 1) {
+            do {
                 int r = 1;
-                while (r <= 1) {
+                do {
                     int k = 1;
-                    while (k <= 1) {
+                    do {
                         System.out.print(asterisco);
                         k++;
-                    }
+                    } while (k <= 1);
                     System.out.print("      ");
                     r++;
-                }
+                } while (r <= 1);
                 System.out.print(asterisco);
                 e++;
-            }
+            } while (e <= 1);
             System.out.println(" ");
             m++;
-        }
+        } while (m <= 2);
 
         int t = 1;
-        while (t <= 2) {
+        do {
             int y = 1;
-            while (y <= 14) {
+            do {
                 System.out.print(a);
                 y++;
-            }
+            } while (y <= 14);
             System.out.println("");
             t++;
-        }
+        } while (t <= 2);
         System.out.println(" ");
     }
 }
