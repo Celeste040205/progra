@@ -483,3 +483,119 @@ pasar de un for a while.
 ![alt text](image-16.png)
 
 ![alt text](image-17.png)
+
+*Do While*
+
+(xd)
+
+# **Apuntes semana 3**
+
+## **Clase 7**
+
+*Paradigma*
+
+* Solventar problemas.
+
+1. ***Conceptualizacion:***
+
+	* Idea de lo que se quiere realizar, se puede dibujar, diseñar, etc. Tener un aidea del resultado.
+	* Como realizarlo.
+	* ¿Que tengo? Ponerle nombre, concretar un significado.
+	* Solo los obejtos se pueden hacer dos cosas: Caracteristicas, acciones.
+
+		* *Caracterisiticas:* propiedades. Almacenamiento de la informacion, cantidad, medir. (descripcion clara del objeto). Recomendacion: dibujarlo.
+		* *Acciones:* metodos. Una accion es un verbo (jugar, correr, caminar...), que tenga sentido y vaya de acorde con las caracteristicas mencionadas y con la conceptualizacion que se quiere, debe tener parametros.
+	
+	* No salir del tema, definir un limite, una parte de la informacion.
+	* No se invente.
+	* Solo lo necesario al momento de describir.
+	* Los parametros podria interpretarse como un limite.
+
+		* *Parametros:* dentro de las acciones Ej: Caminar(tiempo, lugar...) informacion extra que da las instrucciones, para que el programa haga lo que tu quieres. Se parece a las propiedades. Pero cambian.
+
+	* Definir si es publico o privado/protegido del objeto.
+
+		* PUBLIC (+)
+		* PRIVADE (-)
+		* PROTEC ()
+		* FRENDLY (#)
+	
+	* Definir si las caracteristicas y los metodos es alguna de esas, eso depende del programador, tiene uqe tener una razon para saber como se va a comportar eso. 
+
+2. ***UML:***
+	* *Significado:* Lenguaje de modelaje unificado.
+	* Es el ¿Que?
+	* Colocar en una clase. (Diagrama de clase)
+	 
+	* Ejemplo:
+
+	|     + CLASE          |
+	|----------------------|
+	|- Edad: float         |
+	|+ tieneOjos: bool     |
+	|+ tipoCabello: String |
+	|...                   |
+
+	* Colocar las ideas, para que se identifiquen, para que estas empiezan a tener una forma mas solida, despues de colocar las caracteristicas se escriben los metodos.
+
+	* Ejemplo N.-2:
+
+	|     + CLASE                                                                 |
+	|-----------------------------------------------------------------------------|
+	|- Edad: float                                                                |
+	|+ tieneOjos: bool                                                            |
+	|+ tipoCabello: String                                                        |
+	|...                                                                          |
+	|- bailar(cancion: String; tiempoMin: int; ritmo: String): void/String/boolean|
+	|+ tocar(cosaobjeto: String; tiempoMin: int): boolena                         |
+	|- saltar(altura: int; cantidad: int): void                                   |
+	|...                                                                          |
+
+	* Void: no interesa
+	* String: que de un resultado
+	* Boolean: saber solo si cumplio o no cumplio.
+
+	* *Interaccion con otros objetos:* se necesita un evento (algo que pasa por algo externo, interaccion/comunicacion entre dos objetos) esto se puede añadir como un cuerpo u objeto mas, esos son los eventos.
+
+	|     + CLASE                                                                 |
+	|-----------------------------------------------------------------------------|
+	|- Edad: float                                                                |
+	|+ tieneOjos: bool                                                            |
+	|+ tipoCabello: String                                                        |
+	|...                                                                          |
+	|- bailar(cancion: String; tiempoMin: int; ritmo: String): void/String/boolean|
+	|+ tocar(cosaobjeto: String; tiempoMin: int): boolena                         |
+	|- saltar(altura: int; cantidad: int): void                                   |
+	|...                                                                          |
+	|- sentir (nombre: Hombre)                                                    |
+
+	* Se pueden poner en lineas extra o alli mismo, depende del diseñador.
+	* se debe utlizar un herramienta para Diagrama de clases.
+
+3. ***Codigo (Java)***
+	* Diagrama y codigo deben estar iguales.
+
+* *Ejemplo:* Propiedades.
+
+```java
+public class Mujer {
+	private float edad;
+	public boolean tieneOjos;
+	private String tipoCabello;
+	...
+}
+```
+
+* *Ejemplo N.- 2:* metodos.
+
+```java
+protected String bailar (String cancion; int tiempoMin; String ritmo) {
+	...
+	return "sjsjsmskdk..."
+}	
+```
+
+* ***Deber***
+
+	* Concetualizar un animal salvaje, a mano en una hoja.
+	* Debe tener 3 propiedades y 3 metodos.
