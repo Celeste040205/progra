@@ -22,9 +22,7 @@ public class ForNombreM {
                 System.out.print(a);
             }
             System.out.print("   ");
-            
         }
-        
         System.out.println("");
         
         for (int i = 1; i <= 13; i++) {

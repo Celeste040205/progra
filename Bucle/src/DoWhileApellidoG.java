@@ -1,5 +1,5 @@
 public class DoWhileApellidoG {
-    public void DoWhileG(){
+    public void DoWhileG() {
         System.out.println(" ");
         System.out.println("DoWhile: G");
         System.out.println(" ");
@@ -33,24 +33,25 @@ public class DoWhileApellidoG {
             q++;
         } while (q <= 1);
         System.out.println(" ");
-        //MITAD
+        // MITAD
         int j = 1;
         do {
             System.out.print(asterisco);
             j++;
         } while (j <= 1);
         System.out.println(" ");
-        //COMPLICADO
+        // COMPLICADO
         int x = 4;
         do {
-            if (x==4||x==6){
+            if (x == 4 || x == 6) {
                 int s = 1;
                 do {
                     System.out.print(a);
                     s++;
                 } while (s <= x);
                 System.out.print("");
-            } if (x==5) {
+            }
+            if (x == 5) {
                 int c = 1;
                 do {
                     System.out.print("");
@@ -67,7 +68,7 @@ public class DoWhileApellidoG {
             x++;
         } while (x <= 6);
         System.out.println("");
-        //parte baja
+        // parte baja
         int m = 1;
         do {
             int e = 1;
