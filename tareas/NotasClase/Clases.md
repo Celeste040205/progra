@@ -501,7 +501,7 @@ pasar de un for a while.
 	* Idea de lo que se quiere realizar, se puede dibujar, diseñar, etc. Tener un aidea del resultado.
 	* Como realizarlo.
 	* ¿Que tengo? Ponerle nombre, concretar un significado.
-	* Solo los obejtos se pueden hacer dos cosas: Caracteristicas, acciones.
+	* Solo los objetos se pueden hacer dos cosas: Caracteristicas, acciones.
 
 		* *Caracterisiticas:* propiedades. Almacenamiento de la informacion, cantidad, medir. (descripcion clara del objeto). Recomendacion: dibujarlo.
 		* *Acciones:* metodos. Una accion es un verbo (jugar, correr, caminar...), que tenga sentido y vaya de acorde con las caracteristicas mencionadas y con la conceptualizacion que se quiere, debe tener parametros.
