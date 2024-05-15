@@ -1,5 +1,10 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, xd");
+        Usuario usuario = new Usuario();
+
+        System.out.println(" ");
+        usuario.ingresar();
+        usuario.crearDino();
+        System.out.println(" ");
     }
 }
