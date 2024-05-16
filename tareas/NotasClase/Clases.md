@@ -600,3 +600,65 @@ protected String bailar (String cancion; int tiempoMin; String ritmo) {
 	* Concetualizar un animal salvaje, a mano en una hoja.
 	* Debe tener 3 propiedades y 3 metodos.
 
+## **Clase 8**
+
+// despues xd
+
+## **Clase 9**
+
+Comprobar que se tienen las siguientes extensiones:
+
+* Herramientas:
+	* drawn.io
+	* excalidrawn
+	* etc.
+
+Abrir un nuevo proyecto, abrir solo la carpeta DEL PROYECTO, no mas solo la carpeta, se tiene que ver asi:
+
+![capturaxd](image-18.png)
+
+abri una pestaña de drawn.io
+
+![drawn](image-19.png)
+
+para los diseños abrir, en una nueva carpeta, nombre.dio (el "dio" es lo que hace que se transforme en ese formato)
+
+diagramas **Caso de Uso**
+
+Es para definir lo que se quiere relizar, tener una imagen concreta
+
+En este ejemplo se usaron dos imagenes:
+
+![xd](image-20.png)
+
+Se tiene la imagen, (use)
+Donde se tienen varias ramas.
+
+* relacion
+* include
+* externo
+
+Pasa del diagrama de uso, interprentandolo, y pasandole a:
+
+Diagramas de **Clase**
+
+* relacion
+* asociacion
+* herencia
+
+*(PARA EL PROYECTO SE DEBE TENER DIAGRAMA DE USO Y DIGRAMA DE CLASE)*
+
+Comprobar que Java compile que la todo funcione
+
+crear la imagen y pasar al UML
+
+![xddd](image-21.png)
+
+Tras eso pasarlo al codigo 
+
+![alt text](image-22.png)
+
+y ver que eso compile 
+
+![alt text](image-23.png)
+
