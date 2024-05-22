@@ -662,3 +662,67 @@ y ver que eso compile
 
 ![alt text](image-23.png)
 
+# **Apuntes semana 4**
+
+## **Clase10**
+
+*Ejemplo de como trabaja TUTI*
+
+Actor: cualquier cosa que lanza algo en el sistema, agente externo.
+
+El actor o la persona dentro de este caso puede seleccionar/usar productos.
+
+**Ejemplo: En TUTI un cliente puede seleccionar un producto de los estantes.** (siempre tiene que ir una frase completa).
+
+**Ejemplo2: pagar los productos seleccionados** (ver quienes participan) **quien recibe es el cajero** (hay un sistema que ayuda a este trabajo, pero si no se le emplea bien igual tendra dificultades)
+
+App = sistema.
+
+Identificar que se usa en el proceso y las situaciones se pueden presentar.
+
+* procesos de devoluciones.
+* procesos de cancelación **Autorización de un supervisor**
+* proceso enviar comprobante **electronico**
+
+Algo nuevo:
+
+* productos en linea para envio a casa.
+	* pago de productos seleccionado: obligatorio.
+	* pagar con tarjeta de credito/debito: opcional.
+
+*Herencia*
+
+aspectos comunes
+optimizar la gestion
+proteccion de informacion
+nombre; etc.
+
+1.- conceptualizar.
+2.- UML.
+
+todo privado.
+
+dinero en positivo.
+
+el String es para las conversacion.
+
+que poner cuando se tiene un valor numerico?
+
+cuando se va a usar valor numerico?
+si se va a operar.
+
+crear diseño = codigo respectivo al tema.
+
+*Generalizacion*
+
+Palabras clave: *ES UN* (sube)
+
+Plabra clave: *PUEDE SER* (descendente)
+
+# **Clase 11**
+
+* **Construcutor:** lleva el mismo nombre de la clase, siempre es publico o protec, esta por defecto(HASTA QUE SE LO DEFINE), se llama una sola vez.
+Inicializa las variables, se ejecuta automaticamente.
+
+* **Sobrecarga:** recibe varios parametros.
+
