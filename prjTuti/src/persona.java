@@ -1,4 +1,4 @@
-public class persona {
+public abstract class persona {
     private String cedula;
     private String nombre;
     private String apellido;
@@ -19,7 +19,7 @@ public class persona {
         return cedula;
     }
     public void setCedula(String cedula) {
-        if (cedula != null || cedula.length()>=10)
+        if (cedula == null || cedula.length()!=10)
             this.cedula = cedula;
         else
             this.cedula = "noValido";
@@ -29,9 +29,9 @@ public class persona {
     }
     public void setNombre(String nombre) {
         if (nombre == null)
-            this.nombre = nombre.toUpperCase();
-        else
             this.nombre = nombre;
+        else
+            this.nombre = nombre.toUpperCase();
  
     }
     public String getApellido() {
@@ -39,8 +39,8 @@ public class persona {
     }
     public void setApellido(String apellido) {
         if (apellido == null)
-            this.apellido =  apellido.toUpperCase();
+            this.apellido =  apellido;
         else
-            this.apellido = apellido;
+            this.apellido = apellido.toUpperCase();
     }
 }

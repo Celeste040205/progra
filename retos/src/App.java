@@ -3,10 +3,9 @@ public class App {
         
         introduccion in = new introduccion();
         CelesteGallardo cG = new CelesteGallardo();
-        
 
         in.Grupo2();
-        cG.cgFormas(0, 0);
+        cG.cgFormas();
 
     }
 }
