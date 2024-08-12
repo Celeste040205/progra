@@ -892,3 +892,332 @@ Siempre una I al inicio para entender como una interface.
 
 los numeros o asteriscos en las lineas significan cuantas variables deberia de declarar.
 
+# **Apuntes semana 9**
+
+## **Clase 21**
+
+Correccion de la prueba:
+
++ La lista era en relacion con el animal que te tocaba, crear la lista descendiente hasta llegar al animal seleccionado, no con toda la cadena... :(
+
++ Solo crear un animal de la clasificacion que le correspondia.
+
++ Polimorfismo: hacer la accion de varias maneras.
+	+ tenian que salir nombre, y lo que tocase, (en mi caso comer xd)
+
++ contraseña y lo demas.
+
++ en el diagrama de clase, dejar un animal en el paquete 2, y otro en el paquete 3.
+
++ en total se tienen 3 paquetes los dos primeros son de la pregunta 1 (los dos paquetes), la segunda pregunta (solo un paquete con el polimorfismo)
+
++ el bilogo y el sistema estan fuera de los otros paquetes.
+## **Clase 22**
+
+no se puede instanciar si es que es una clase abstracta.
+
+*Asociacion*
+![alt text](image-37.png)
+
+Flechas indican el sentido de lectura.
+Los numeros indican la cantidad que se le puede asignar, o que puede existir (Cardinalidad).
+
+si no se pone el numero por defecto se indica que es uno.
+"1" relaciones uno a uno
+"+" minimo existe uno o muchas personas.
+"*" pueden existir cero o muchos elementos.
+![alt text](image-38.png)
+
+**Ejemplo**
+
+Interpretacion de diagrama de clase para escribirlo en codigo
+
+![alt text](image-39.png)
+
+Resultado del ejemplo:
+
+![alt text](image-40.png)
+
+Otro ejemplo pero ahora esta unido por la flecha los dos cuadros del diagrama, señalando la asociacion.
+
+![alt text](image-41.png)
+
+*Detalles*
+si se tiene un asterisco o crus: ene este ejemplo, el asterisico indicaria que se tendria una coleccion de esos objetos, tal como se dice, ejemplo general y otro mas exacto.
+![alt text](image-42.png)
+
+![alt text](image-43.png)
+
+![alt text](image-44.png)
+
+si tiene un 1, +, * es una lista, si te determina por algun numero, debes hacer un arreglo de la cantida que se te solicita.
+![alt text](image-45.png)
+
+**MISION**
+
+Ganancia: 0,5p
+
+Mision: crear animales vertebrados.
+
+Clasificacion de los animales vertebrados:
+![alt text](image-46.png)
+
+Lo que se desea optener:
+![alt text](image-47.png)
+
+Diagrama en una hoja
+## **Clase 23**
+
+*Continuacion de la mision:*
+Planificacion a mano, para comprender le tema, ordenar las ideas para entender que es lo que se pide y que es lo que se requiere.
+
+Diseño del digrama de clase
+con herencia se debia de colocar todas las clasificaciones siendo "hijos" del 'reino animal', estas se mantienen el clases abstractas.
+
+Tras eso, se colocan los animales que se necesiten a continuacion, y para las acciones de los animales se pueden utilizar interfaces, para lograr obtener un mundo de acciones para mas animales.
+
+Con las interfaces se pueden ayudar a las demas especies, si es que se crean mas especies, con las interfaces se puede hacer que estas tambien tengan las acciones, con la ayuda de un @override, se puede sobreescribir, para adaptarle al nuevo animal.
+
+Un metodo tiene que ser publico, para obligar al objeto a hacer algo.
+
+![alt text](<Imagen de WhatsApp 2024-06-19 a las 11.58.21_a3dc5dba.jpg>)
+
+Dependiendo, las interfaces se pueden poner en una misma carpeta.
+
+al momento de programar, crear el proyecto y comenzar creando las carpetas.
+
+![alt text](image-48.png)
+
+y dentro de cada carpeta poner las clases ya sean abstractas o no.
+
+![alt text](image-49.png)
+
+ademas se puede metar un paquete dentro de otro paquete.
+
+![alt text](image-50.png)
+
+ tendra al principio el bombre del paquete en que estara metido, se parado por un punto para el nombre del nuevo paquete.
+
+![alt text](image-51.png)
+
+ademas de colocar las interfaces, guiarse por la simbologia.
+
+Llenar todo de acorde al digrama de clase.
+
+# **Apuntes Semana 10**
+
+## **Clase 24**
+
+mal nomenclado, no se puede materializar.
+
+observar donde se encuentra la lista.
+
+relacion consigo mismo.
+
+relacion en el ejercicio: *el leon se pude comer un pato* en este caso, hay mas variedad. *un pato alcanza solo para un leon*
+
+saber como se utiliza la flecha.
+
+ayuda de listas, las colecciones si se pueden coleccionar de la misma especie o si es distinta, ayudandose con las herencias.
+
+ayuda para hacer los diagramas de clase.
+
+1) extencion.
+![alt text](image-52.png)
+
+ALT + d: procesar
+
+![alt text](image-53.png)
+
+## **Clase 25**
+(laboratorios ocupados)
+
+## **Clase 26**
+(laboratorios ocupados)
+
+# **Apuntes Semana 11**
+
+(profe enfermo, ver los videos de las clases virtuales)
+
+# **Apuntes Semana 12**
+
+## **Clase 30**
+
+![alt text](<Imagen de WhatsApp 2024-07-09 a las 11.20.31_8e4900f6.jpg>)
+
+hacer el digrama de clase con todo lo aprendido y un prototipo del exobot.
+
+**Prototipo:**
+
+![alt text](<Imagen de WhatsApp 2024-07-09 a las 11.43.13_51ea9e87.jpg>)
+
+![alt text](<Imagen de WhatsApp 2024-07-09 a las 11.43.24_d0512afc.jpg>)
+## **Clase 31**
+
+![alt text](image-54.png)
+
+simbolo de que es extraible. (el que esta en blanco)
+
+![alt text](image-55.png)
+
+si se los crea como interfaces, no se los puede instanciar.
+
+por que le exobot tiene la capacidad de aprender, alguien tendra que enseñarle.
+
+![alt text](image-56.png)
+
+trabajar con las arquitecturas empresariales, y aumentar la base de datos con una estructura.
+
+Se necesita de un driver, para conectar.
+
+Se debe instalar el ORACLE para poder acceder a las bases de datos.
+
+se necesita crear una tabla que es como una tabla de exel, para la base de datos, donde se almacenen en orden y como deben ser los datos.
+
+todas la tablas deben tener un primary key.
+
+Primary key: no se pueden cambiar por nada, si se pone mal te metes en un lio.
+
+no poner como primera linea el primary key, sino crear un campo aparte.
+
+todo debe funcionar en funcion de la atomicidad, osea que los datos deben ser atomicos, osea que son unicos.
+
+# **Apuntes Semana 13**
+
+## **Clase 33**
+
+relacion 1 a 1
+
+relacion 1 a muchos
+
+relacion de muchos a muchos
+
+cardinalidad: numero de veces
+
+En cada tabla poner un primary key
+
+ejemplo
+
+Cursos en linea "Undemy"
+
+roadmad: un tutor elabora varios cursos (dibujo)
+		un curso puede ser elaborado por un solo tutor
+		un alumno puede tomar muchos cursos
+		un curso puede ser tomado por varios alumnos
+
+* como pagar el curso
+* idiomas
+
+|Tutor  |
+|-------|
+|idTutor int(PK)|
+|nombre char(100)|
+|apellido char(100)|
+|edad int X|
+|fechaNacimiento date|
+|estatura float |
+|              |
+|              |
+|              |
+|idUsuario int |
+|fechaRegistro date |
+|fechaModificacion date |
+
+* X: edad int (no guardar edad, sino fecha de nacimiento, hacer esto con todas las cosas que se calculen)
+* fechaNacimiento date (debe ser de esta forma con el origen de la data)
+* fechaRegistro date siempre poner
+* fechaModificacion date siempre poner
+
+|alumno  |
+|-------|
+|idAlumno int(PK)|
+
+las tablas de tutor y alumno son iguales, por lo que se puede crear una sola tabla y que las tablas que contienen las mismas cosas se simplifiquen al estar enlazadas a esta tabla mas grande.
+
+Para los cursos, estos se encuentran por categorias
+
+## **Clase 34**
+
+apuntes a mano
+
+## **Clase 35**
+
+![alt text](image-57.png)
+
+PRIMARY KEY (poner siempre en mayusculas)
+Las cedulas deben ser unicas: UNIQUE
+
+En la parte superior se puede ver donde esta el archivo
+
+![alt text](image-58.png)
+
+extensiones necesarias:
+
+![alt text](image-59.png)
+
+![alt text](image-60.png)
+
+Las extructuras
+
+![alt text](image-61.png)
+
+datos iniciales del archivo
+
+![alt text](image-62.png)
+
+investigar como funciona el sqlite
+
+![alt text](image-63.png)
+
+![alt text](image-64.png)
+
+Presentaciones de errores 
+![alt text](image-72.png)
+
+![alt text](image-73.png)
+
+
+
+# **Semana 14**
+
+## **Clase 36**
+## **Clase 37**
+## **Clase 38**
+
+# **Semana 15**
+
+## **Clase 39**
+## **Clase 40**
+
+Diseño de la base de datos
+![alt text](image-65.png)
+## **Clase 41**
+
+![alt text](image-66.png)
+
+![alt text](image-67.png)
+
+![alt text](image-68.png)
+
+![alt text](image-69.png)
+
+![alt text](image-70.png)
+
+Para poder poner imagenes 
+![alt text](image-71.png)
+
+
+# **Semana 16**
+
+## **Clase 42**
+
+traer todo el esqueleto para la base de datos.
+
+diagrama de arquitectura 0,5
+	login
+	punto extra para proceso de logueo con encriptacion
+
+diagrama de clase 0,5
+
+Mejorar el codigo, menos lineas 
+

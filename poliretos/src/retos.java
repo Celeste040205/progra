@@ -3,8 +3,6 @@ public class retos {
 
     public void cgA02(){    
         
-        
-        
         System.out.print("Ingrese el tamaño de las letras: ");
         int size = App.sc.nextInt();
         
@@ -232,18 +230,3 @@ public class retos {
     }   
 
 }
-
-
-
-
-
-    
-    
-
-        
-        
-
-
-
-    
-
